@@ -94,3 +94,8 @@ export NNN_OPTS="c"
 export NNN_PLUG="m:nmount"
 export NNN_OPENER=/usr/share/nnn/plugins/nuke
 export NNN_BMS="c:~/.config"
+
+# Misc settings
+# Set GPG_TTY for pinentry-curses
+GPG_TTY=$(tty)
+export GPG_TTY
