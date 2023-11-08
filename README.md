@@ -9,13 +9,23 @@
 **Warning: This will overwrite existing files. Check the yadm
 [docs](https://yadm.io/docs/getting_started) for more information**
 
+## Zsh setup
+
+Zsh setup uses [Oh My Zsh](https://ohmyz.sh).
+
+### Zsh Requirements
+
+- [Zsh](https://www.zsh.org) (Version 5.0.8 and newer is prefered)
+- [curl](https://curl.se) - Required to setup Oh My Zsh
+- [Git](https://git-scm.com) - Required to setup Oh My Zsh
+
 ## Neovim setup
 
 Neovim will automatically bootstrap
 [lazy.nvim](https://github.com/folke/lazy.nvim) and install the configured
 plugins, language servers, linters and formatters.
 
-### Requirements
+### Neovim Requirements
 
 - [Neovim](https://neovim.io) (Version 0.8 or later)
 - [Nerd Font](https://www.nerdfonts.com) - For nvim-web-devicons
