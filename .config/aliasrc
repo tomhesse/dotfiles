@@ -1,0 +1,10 @@
+# Convenience aliases
+alias reboot="loginctl reboot"
+alias poweroff="loginctl poweroff"
+alias doasedit="doas $VISUAL"
+
+# XDG_CONFIG_HOME
+alias todo="todo.sh -d $XDG_CONFIG_HOME/todo/config"
+
+# XDG_CACHE_HOME
+alias wget="wget --hsts-file=$XDG_CACHE_HOME/wget-hsts"
