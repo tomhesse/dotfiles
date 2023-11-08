@@ -9,6 +9,12 @@
 **Warning: This will overwrite existing files. Check the yadm
 [docs](https://yadm.io/docs/getting_started) for more information**
 
+## Kitty setup
+
+### Kitty Requirements
+
+- None
+
 ## Zsh setup
 
 Zsh setup uses [Oh My Zsh](https://ohmyz.sh).
