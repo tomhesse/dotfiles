@@ -19,6 +19,7 @@ return {
                 "lua_ls",
                 "bashls",
                 "marksman",
+                "pyright",
             },
             -- Auto-install configured servers with lspconfig
             automatic_installation = true,
@@ -30,6 +31,9 @@ return {
                 "stylua", -- Lua formatter
                 "luacheck", -- Lua linter
                 "markdownlint",
+                "isort", -- Python formatter
+                "black", -- Python formatter
+                "pylint", -- Python linter
             },
         })
     end,

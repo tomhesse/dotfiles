@@ -100,5 +100,11 @@ return {
             capabilities = capabilities,
             on_attach = on_attach,
         })
+
+        -- Configure python language server
+        lspconfig["pyright"].setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
+        })
     end,
 }
