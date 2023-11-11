@@ -30,7 +30,7 @@ return {
             ensure_installed = {
                 "stylua", -- Lua formatter
                 "luacheck", -- Lua linter
-                "markdownlint",
+                "markdownlint", -- Markdown liter
                 "isort", -- Python formatter
                 "black", -- Python formatter
                 "pylint", -- Python linter
