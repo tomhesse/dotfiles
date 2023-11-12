@@ -70,12 +70,9 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aliases doas git history timer tmux)
+plugins=(aliases doas git history tmux)
 
 # Plugin settings
-# Timer
-TIMER_FORMAT="[%d]"
-
 # Tmux
 ZSH_TMUX_AUTOSTART="false"
 ZSH_TMUX_DEFAULT_SESSION_NAME="Main"
