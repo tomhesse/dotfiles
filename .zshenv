@@ -9,8 +9,12 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
 
+# Cache files
+export PYTHONPYCACHEPREFEIX="$XDG_CACHE_HOME"/python
+
 # Data files
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export PYTHONUSERBASE="$XDG_DATA_HOME"/python
 
 # State files
 export HISTFILE="$XDG_STATE_HOME"/zsh_history
