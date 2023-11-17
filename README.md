@@ -25,6 +25,15 @@ Zsh setup uses [Oh My Zsh](https://ohmyz.sh).
 - [curl](https://curl.se) - Required to setup Oh My Zsh
 - [Git](https://git-scm.com) - Required to setup Oh My Zsh
 
+## Tmux setup
+
+Tmux setup uses [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+to manage plugins
+
+### Tmux Requirements
+
+- [Git](https://git-scm.com) - Required to setup tpm
+
 ## Neovim setup
 
 Neovim will automatically bootstrap
