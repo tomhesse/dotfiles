@@ -2,6 +2,7 @@
 alias reboot="loginctl reboot"
 alias poweroff="loginctl poweroff"
 alias doasedit="doas $VISUAL"
+alias rm="echo This is not the command you are looking for.; false"
 
 # Home cleanup
 alias todo="todo.sh -d $XDG_CONFIG_HOME/todo/config"
