@@ -4,7 +4,6 @@ local indent = 4
 
 -- General
 opt.mouse = "" -- Disable mouse support
-opt.clipboard = "unnamedplus" -- Enable access to system clipboard
 opt.fileencoding = "utf-8" -- The encoding written to a file
 opt.encoding = "utf-8" -- The encoding
 
