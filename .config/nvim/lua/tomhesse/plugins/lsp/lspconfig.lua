@@ -106,5 +106,17 @@ return {
             capabilities = capabilities,
             on_attach = on_attach,
         })
+
+        -- Configure html language server
+        lspconfig["html"].setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
+        })
+
+        -- Configure css language server
+        lspconfig["cssls"].setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
+        })
     end,
 }

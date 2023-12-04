@@ -20,6 +20,8 @@ return {
                 "bashls",
                 "marksman",
                 "pyright",
+                "html",
+                "cssls",
             },
             -- Auto-install configured servers with lspconfig
             automatic_installation = true,
@@ -34,6 +36,7 @@ return {
                 "isort", -- Python formatter
                 "black", -- Python formatter
                 "pylint", -- Python linter
+                "prettier", -- HTML and CSS formatter
             },
         })
     end,
